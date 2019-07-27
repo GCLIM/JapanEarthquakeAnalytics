@@ -75,7 +75,7 @@ def update(frame):
     return scat, time_text
 
 #set True to save animation
-save = True
+save = False
 
 if save:
     animation = FuncAnimation(fig, update, interval=10, blit=True, save_count=len(E))
